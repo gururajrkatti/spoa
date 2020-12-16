@@ -36,6 +36,7 @@ matrix:
     - name: "GCC 4.8 (Linux)"  # GCC 4.8.5 & CMake 3.9.2
       os: linux
       arch: ppc64le
+      dist: xenial
       addons:
         apt:
           sources:
@@ -49,6 +50,7 @@ matrix:
     - name: "Clang 3.5 (Linux)"  # Clang 3.5.0 & CMake 3.9.2
       os: linux
       arch: ppc64le
+      dist: xenial
       addons:
         apt:
           sources:
